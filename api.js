@@ -14,9 +14,8 @@ function getLocation() {
       ).innerHTML = `longitude: ${position.coords.longitude}`;
       const lat = document.getElementById("lat").value;
       const long = document.getElementById("lon").value;
-      //Lägg in eget api key här
       axios(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=Lägg in api key här`
+        `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=f4a027ad9e08d077764438d12ae27054&units=metric`
       )
         .then(function (data) {
           return data;
@@ -44,10 +43,10 @@ function getLocation() {
     console.log("Geolocation is not supported by this browser.");
   }
 }
-//Lägg in api key här
+
 const getBackgroundImage = () => {
   axios(
-    "https://api.unsplash.com/photos/random/?client_id=Lägg in api key här"
+    "https://api.unsplash.com/photos/random/?client_id=crT3QVdozFZa56Y5AlLIZ4Y5p6rzXl5HZQLYGA1sJck"
   )
     .then(function (data) {
       return data;
