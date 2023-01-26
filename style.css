@@ -1,0 +1,13 @@
+#creator {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+}
+
+.lat {
+  font-size: 200px;
+}

@@ -1,0 +1,16 @@
+#creator {
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+
+.clock {
+  justify-content: center;
+  display: flex;
+}
+
+.lat {
+  font-size: 200px;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

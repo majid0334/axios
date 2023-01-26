@@ -1,0 +1,20 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Majid",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.4"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.3"
+  },
+  "main": "api.js",
+  "description": ""
+}
